@@ -1,0 +1,14 @@
+.numero{
+    font-size: 250px;
+    color: white;
+    background-color: #0a0a23;
+    border: 5px solid white;
+    min-width: 300px;
+}
+
+.container-contador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}

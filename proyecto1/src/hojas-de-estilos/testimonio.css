@@ -1,0 +1,41 @@
+.container-test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 1200px;
+    background-color: white;
+    box-shadow: 8px 10px 20px -4px rgba(0,0,0,0.63);
+    margin-bottom: 50px;
+}
+
+.container-personas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 30px;
+    line-height: 30px;
+}
+
+.imagen-test{
+    width: 300px;
+}
+
+.nombre{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.cargo{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.texto{
+    margin-top: 20px;
+    font-size: 1.1rem;
+    text-align: justify;
+}
