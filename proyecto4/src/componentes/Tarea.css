@@ -1,0 +1,38 @@
+.tarea-hecha{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 650px;
+    border-radius: 15px;
+    border: 3px solid black;
+    min-height: 60px;
+    margin: 0 10px 10px 10px; 
+    background-color: rgb(1, 1, 39);
+    color: white;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.tarea-texto{
+    display: flex;
+    width: 80%;
+    font-size: 20px;
+    padding-left: 10px;
+    word-break: break-all;
+    cursor: pointer;
+}
+
+.contenedor-tarea-icon{
+    cursor: pointer;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.contenedor-tarea-icon:hover{
+    color:rgb(255, 120, 3)
+}
+
+.completada{
+    background-color: blueviolet ;
+    text-decoration: line-through;
+}
